@@ -50,6 +50,20 @@ const even = nums.filter((num)=> num%2==0)`
 
 
 # BACKEND
+* AUTHENTICATION AND AUTHORIZATION 
+-----------------------------------
+* Authentication: Verifying who the user is (login/signup).
+
+* Authorization: Verifying what the user can access (admin, user, etc.).
+
+* THERE ARE TWO TYPES OF AUTHENTICATION :-
+  -------------------------------------
+
+* Session-Based	----------->> Server stores user session in memory or database. Old method, used with cookies.
+* Token-Based (JWT)	----------->> Server issues a signed token (usually JWT), stored in client (localStorage/cookie).
+
+
+
 
 
 
