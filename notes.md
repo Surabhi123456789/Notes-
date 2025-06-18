@@ -114,3 +114,75 @@ INTERNET -----> The Internet is a huge network that connects millions of compute
 A computer network is important because it helps computers and devices connect with each other, so they can share information, files, and resources easily and quickly.
 A computer network makes everything faster, easier, cheaper, and more connected – whether at home, in school, in offices, or across the world.
 
+* client server architecture -------->
+  
+Client = The user/device that requests services (like your browser or phone)
+
+ Advantages:
+-----------------------
+Centralized control of data
+
+Easy to manage and secure
+
+Scalable (can add more clients easily)
+
+Disadvantages:
+----------------------
+Server failure = everything stops
+
+* What is a Networking Protocol ?
+
+A networking protocol is a set of rules that computers follow to communicate with each other over a network (like the Internet).
+Needs good security and hardware
+------------------------------------------
+Protocol	Full Form                     	Purpose
+HTTP	    HyperText Transfer Protocol 	Transfers web pages over the internet (used in browsers)
+HTTPS	    HTTP Secure	                    Same as HTTP but encrypted for security
+FTP	        File Transfer Protocol	        Used to upload/download files between computers
+TCP	        Transmission Control Protocol	Ensures reliable and ordered delivery of data
+UDP      	User Datagram Protocol	        Fast but doesn’t check for reliability (used in video calls, gaming)
+IP      	Internet Protocol	            Sends data between devices using IP addresses
+SMTP	    Simple Mail Transfer Protocol	Used to send emails
+DNS         Domain name system              convert website name (like google.com) into IP address
+
+* HTTP (HyperText Transfer Protocol)
+------------------------------------------
+HTTP is the protocol used by web browsers to communicate with web servers.
+
+It allows the transfer of webpages, images, and files from a server to your device
+
+Stateless: Each request is treated independently.
+
+Works on Port 80 by default.
+
+Not secure (data is not encrypted
+
+Know how HTTP GET and POST methods work.
+
+Be able to explain HTTP status codes like:
+
+200 OK
+
+404 Not Found
+
+500 Internal Server Error
+
+* HTTPS (HyperText Transfer Protocol Secure)
+----------------------------------------------------------
+Same as HTTP but secure — it uses SSL/TLS encryption to protect data
+When you visit a site with https://, it encrypts the communication between your browser and server.
+Prevents hackers from reading or tampering with the data
+
+Works on Port 443.
+Used for secure login, payments, personal data.
+
+
+* TCP (Transmission Control Protocol)
+---------------------------------------------
+TCP ensures reliable communication between devices.
+It guarantees that data is delivered, complete, and in the right order.
+
+HOW IT WORKS ---> 
+Breaks large data into packets.
+Uses a 3-way handshake (SYN, SYN-ACK, ACK) to establish a connection.
+If a packet is lost, it resends it.
