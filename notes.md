@@ -101,3 +101,16 @@ SELECT  'hello world';
 * What is happening when we are using a group without any aggregation function
 
 It is allowed but the values for non group columns are undefined or inconsistent
+
+
+# COMPUTER NETWORK 
+--------------------------------------------------------------------------------------------------------------------------------------------
+A computer network is a group of two or more computers connected together to share information, data, resources (like files, printers, internet, etc.).
+
+INTERNET -----> The Internet is a huge network that connects millions of computers around the world so they can communicate, share data, and access information.
+
+* why is the computer network so important ?
+
+A computer network is important because it helps computers and devices connect with each other, so they can share information, files, and resources easily and quickly.
+A computer network makes everything faster, easier, cheaper, and more connected – whether at home, in school, in offices, or across the world.
+
