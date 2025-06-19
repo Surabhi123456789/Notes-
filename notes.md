@@ -297,10 +297,15 @@ DNS server stores mappings of domain names to IPs.
 
 WHAT HAPPEN WHEN YOU TYPE AN URL ?? 
 ------> Your browser does not understand domain names like google.com. It needs the IP address (like 142.250.192.4).
+
 ------> Your browser uses the IP to connect to the server (e.g., 142.250.192.4).
+
 ------> The browser sends an HTTP GET request to the server asking for the web page:
+
 ------> The server sends back the HTML, CSS, JS, and image files needed to load the page.
+
 ------> Browser reads the code and renders the web page on your screen.
+
 
 * SMTP (Simple Mail Transfer Protocol)
 ------------------------------------------------------------
