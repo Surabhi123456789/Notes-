@@ -174,6 +174,14 @@ Be able to explain HTTP status codes like:
 
 500 Internal Server Error
 
+* What is SSL/TLS?
+
+🔸 SSL: Secure Sockets Layer
+
+🔸 TLS: Transport Layer Security (newer, more secure version of SSL)
+
+SSL/TLS is a protocol that encrypts data between your browser (client) and a web server, so that no one (like hackers) can read or modify it.
+
 * HTTPS (HyperText Transfer Protocol Secure)
 ----------------------------------------------------------
 Same as HTTP but secure — it uses SSL/TLS encryption to protect data
@@ -192,4 +200,42 @@ It guarantees that data is delivered, complete, and in the right order.
 HOW IT WORKS ---> 
 Breaks large data into packets.
 Uses a 3-way handshake (SYN, SYN-ACK, ACK) to establish a connection.
+
 If a packet is lost, it resends it.
+
+Key Points:
+
+Reliable, but slower than UDP.
+
+Used in web browsing, email, file transfer.
+
+* What is the TCP 3-Way Handshake?
+
+SYN (Synchronize)
+--------------
+The client wants to connect.
+
+It sends a SYN packet (a request to start communication) to the server.
+
+SYN-ACK (Synchronize-Acknowledge)
+--------------------------
+The server receives the SYN.
+
+It replies with a SYN-ACK:
+
+SYN to say “yes, let’s connect”
+
+ACK (Acknowledge)
+---------------------
+The client receives the SYN-ACK.
+
+It sends an ACK back to the server, confirming the connection is ready.
+
+ACK to acknowledge the client’s request
+
+`Client                               Server
+  | ----------- SYN ------------>   |
+  | <-------- SYN + ACK ---------  |
+  | ----------- ACK ------------>   |
+  |        CONNECTION ESTABLISHED  |
+`
