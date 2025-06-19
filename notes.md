@@ -234,8 +234,109 @@ It sends an ACK back to the server, confirming the connection is ready.
 ACK to acknowledge the client’s request
 
 `Client                               Server
+
   | ----------- SYN ------------>   |
+
   | <-------- SYN + ACK ---------  |
+
   | ----------- ACK ------------>   |
+
   |        CONNECTION ESTABLISHED  |
 `
+
+* UDP (User Datagram Protocol)
+------------------------------------------------
+A faster alternative to TCP but doesn’t guarantee delivery.
+
+How It Works:
+ --------------
+Sends data without establishing a connection.
+
+No error checking, no resend, just sends data quickly.
+
+Key Points:
+----------
+Used in real-time apps like online games, voice calls, video streaming.
+"UDP is connectionless, fast, but unreliable. Used where speed matters more than accuracy."
+
+* IP (Internet Protocol)
+-----------------------------------------------------------------
+IP is used to identify and locate devices on a network using IP addresses.
+
+Sends data packets to the correct destination.
+
+How It Works:
+-------------
+Every device is assigned a unique IP address (like 192.168.0.1).
+
+Key Points:
+--------------
+Part of TCP/IP stack.
+
+Two versions: IPv4 (e.g., 192.168.1.1) and IPv6 (longer, more addresses).
+
+IP routes the packets across the network to reach the destination.
+
+Works on Port 53 (DNS), 67/68 (DHCP), etc.
+
+
+* DNS (Domain Name System)
+-----------------------------------------------------------------------
+DNS converts domain names like www.google.com into IP addresses
+
+How It Works:
+---------
+When you type a website name, your device asks a DNS server for its IP address.
+The browser then connects to that IP to get the website.
+
+ Key Points:
+-------------
+Works behind the scenes every time you open a website.
+
+DNS server stores mappings of domain names to IPs.
+
+WHAT HAPPEN WHEN YOU TYPE AN URL ?? 
+------> Your browser does not understand domain names like google.com. It needs the IP address (like 142.250.192.4).
+------> Your browser uses the IP to connect to the server (e.g., 142.250.192.4).
+------> The browser sends an HTTP GET request to the server asking for the web page:
+------> The server sends back the HTML, CSS, JS, and image files needed to load the page.
+------> Browser reads the code and renders the web page on your screen.
+
+* SMTP (Simple Mail Transfer Protocol)
+------------------------------------------------------------
+SMTP is used to send emails from your device to the mail server.
+
+How It Works:
+-------------
+Your email client (like Gmail or Outlook) uses SMTP to send outgoing messages to another server
+
+ Key Points:
+-----------------
+Works with port 25 or 587.
+
+Can only send emails, not receive them.
+
+* POP3 (Post Office Protocol v3)
+-----------------------------------------------
+
+POP3 is used to download emails from the server to your device.
+Downloads the email and removes it from the server (unless configured otherwise).
+
+ Key Points:
+--------------------------
+Good for offline email access.
+
+Works on port 110.
+
+* FTP (File Transfer Protocol)
+--------------------------------------------------------------------------
+
+FTP is used to upload or download files between computers over a network.
+Connect to an FTP server using username and password, then transfer files.
+
+Key Points:
+---------------------------
+Used by developers to upload websites or files to web servers.
+
+Works on ports 20 and 21
+
