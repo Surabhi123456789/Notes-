@@ -135,23 +135,22 @@ Server failure = everything stops
 A networking protocol is a set of rules that computers follow to communicate with each other over a network (like the Internet).
 Needs good security and hardware
 ------------------------------------------
-Protocol	Full Form                     	Purpose
 
-HTTP	    HyperText Transfer Protocol 	Transfers web pages over the internet (used in browsers)
+HTTP-->	    HyperText Transfer Protocol ----	Transfers web pages over the internet (used in browsers)
 
-HTTPS	    HTTP Secure	                    Same as HTTP but encrypted for security
+HTTPS ---->	    HTTP Secure	   ----                 Same as HTTP but encrypted for security
 
-FTP	        File Transfer Protocol	        Used to upload/download files between computers
+FTP --->	        File Transfer Protocol	  ----     Used to upload/download files between computers
 
-TCP	        Transmission Control Protocol	Ensures reliable and ordered delivery of data
+TCP	 --->       Transmission Control Protocol ---	Ensures reliable and ordered delivery of data
 
-UDP      	User Datagram Protocol	        Fast but doesn’t check for reliability (used in video calls, gaming)
+UDP  --->    	User Datagram Protocol	----     Fast but doesn’t check for reliability (used in video calls, gaming)
 
-IP      	Internet Protocol	            Sends data between devices using IP addresses
+IP   --->   	Internet Protocol	---------        Sends data between devices using IP addresses
 
-SMTP	    Simple Mail Transfer Protocol	Used to send emails
+SMTP ---->	    Simple Mail Transfer Protocol -----	Used to send emails
 
-DNS         Domain name system              convert website name (like google.com) into IP address
+DNS   ---->      Domain name system   ------           convert website name (like google.com) into IP address
 
 * HTTP (HyperText Transfer Protocol)
 ------------------------------------------
