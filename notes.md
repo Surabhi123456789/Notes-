@@ -49,6 +49,15 @@ const even = nums.filter((num)=> num%2==0)`
 
 
 
+* difference between library and framework
+  ---------------------------------------------------------
+A library is a collection of functions or code that you call when you need it. 	You control the flow
+
+A framework provides a structure and set of rules for building your app. 	Framework controls the flow
+
+Library is like going to a restaurant and ordering a dish — you pick what you want.
+Framework is like following a recipe kit — it tells you what steps to follow, and you just fill in the details.
+
 # BACKEND
 * AUTHENTICATION AND AUTHORIZATION 
 -----------------------------------
